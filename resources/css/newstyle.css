@@ -172,11 +172,17 @@ nav {
 	align-items: center;
 }
 
-nav a,
-nav a:hover,
-nav li {
-	color: #ffffff;
-	text-decoration: none;
+@supports not (-webkit-overflow-scrolling: touch) {
+	nav a,
+	nav a:hover,
+	nav li {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	.dropdown a:hover {
+	background-color: #4c5b66;
+}
 }
 
 nav ul {
@@ -204,10 +210,6 @@ nav ul {
 	display: block;
 	padding: 15px 25px;
 	color: #4c4c4c;
-}
-
-.dropdown a:hover {
-	background-color: #4c5b66;
 }
 
 /*Main Content Styles*/

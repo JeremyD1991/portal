@@ -99,23 +99,23 @@ footer {
 
 @font-face {
     font-family: Avenir-Book;
-    src: url('/resources/fonts/Avenir-Book.ttf');
+    src: url('../fonts/Avenir-Book.ttf');
 }
 
 @font-face {
     font-family: Avenir-Medium;
-    src: url('/resources/fonts/Avenir-Medium.ttf');
+    src: url('../fonts/Avenir-Medium.ttf');
 }
 
 
 @font-face {
     font-family: Gotham-Book;
-    src: url('/resources/fonts/Gotham-Book.otf');
+    src: url('../fonts/Gotham-Book.otf');
 }
 
 @font-face {
     font-family: Gotham-Medium;
-    src: url('/resources/fonts/Gotham-Medium.otf');
+    src: url('../fonts/Gotham-Medium.otf');
 }
 
 /*Font Styles*/
@@ -172,7 +172,6 @@ nav {
 	align-items: center;
 }
 
-@supports not (-webkit-overflow-scrolling: touch) {
 	nav a,
 	nav a:hover,
 	nav li {
@@ -182,7 +181,6 @@ nav {
 	
 	.dropdown a:hover {
 	background-color: #4c5b66;
-}
 }
 
 nav ul {
